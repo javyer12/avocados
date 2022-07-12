@@ -3,21 +3,23 @@
 @import "tailwindcss/dist/utilities.css";
 
 body {
-  background: rgb(2, 0, 36, 1);
+  background: rgb(250, 248, 248);
   background: radial-gradient(
     circle,
-    rgba(2, 0, 36, 0.6) 0%,
-    rgba(40, 40, 199, 0.8) 27%,
-    rgba(0, 212, 255, 0.7) 100%
+    rgba(2, 0, 36, 0.6) 50%,
+    rgba(40, 40, 199, 0.8) 95%,
+    rgba(0, 212, 255, 0.7) 0%,
   );
 }
 .main {
   /* background-color: #eee4ea48; */
   display: grid;
-  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
   padding: 20px;
-  margin: auto !important;
-  width: fixed !important;
+  margin: 10px !important;
+  justify-content: center;
+  width: 98vw !important; 
   background: 
   rgba(229, 231, 234, 0.073);
   border-radius: 16px;
@@ -31,14 +33,13 @@ body {
 }
 .container {
   /* background-color: white; */
-  color: rgb(0, 0, 0);
+  color: rgba(216, 211, 211, 0.912);
   display: block;
-  /* margin: 0px 30 px 0px 30  px; */
+  margin: auto;
   padding: 20px;
-  width: 20rem;
   margin-top: 30px;
   text-align: center;
-  background: rgba(229, 231, 234, 0.6);
+  background: rgb(1, 21, 51);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.9px);
